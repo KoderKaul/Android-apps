@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Newbie Resources</string>
+    <string name="id_no">Please enter Id number</string>
+    <string name="Button">Submit</string>
+    <string name="dob">\"Date of Birth: \"</string>
+</resources>
