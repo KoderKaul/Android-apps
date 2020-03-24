@@ -46,7 +46,8 @@
 
         android:layout_height="62dp"
         android:background="#795548"
-        android:text="CALCULATE TEMPERATURE" />
+        android:text="CALCULATE TEMPERATURE"
+        android:textColor="#FFFFFF" />
 
     <TextView
         android:id="@+id/txtResult"

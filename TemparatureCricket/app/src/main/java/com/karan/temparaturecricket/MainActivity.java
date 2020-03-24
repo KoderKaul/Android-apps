@@ -7,12 +7,16 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import java.text.DecimalFormat;
 
 public class MainActivity extends AppCompatActivity {
 
     EditText temp;
     Button btn;
     TextView txt;
+    DecimalFormat dd=new DecimalFormat("#0.00");
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,10 +28,16 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int crics=Integer.parseInt((temp.getText().toString()));
-                crics= 4+crics/3;
-                txt.setText("Temparature=" + crics);
-                txt.setVisibility(View.VISIBLE);
+                if (temp.getText().toString().isEmpty()) {
+                    Toast.makeText(MainActivity.this,"Please enter a value",Toast.LENGTH_SHORT).show();
+                }
+                else{
+                    double crics = Double.parseDouble((temp.getText().toString()));
+                    crics = 4 + crics / 3.0;
+                    txt.setText("Temparature=" + dd.format(crics));
+                    txt.setVisibility(View.VISIBLE);
+                }
+
             }
         });
     }
