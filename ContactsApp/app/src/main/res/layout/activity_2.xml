@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Yellow"
+    android:orientation="vertical"
+    tools:context=".Activity2">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Address"
+        android:inputType="textPersonName"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/IvHpy"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            app:srcCompat="@drawable/happy" />
+
+        <ImageView
+            android:id="@+id/IvNeu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            app:srcCompat="@drawable/neutral" />
+
+        <ImageView
+            android:id="@+id/IvSad"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            app:srcCompat="@drawable/sad" />
+    </LinearLayout>
+
+</LinearLayout>
