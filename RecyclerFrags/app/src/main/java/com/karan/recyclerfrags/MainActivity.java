@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity implements myAdapter.ItemCli
     EditText etName;
     EditText number;
     Button btn;
-    ImageView img;
     TextView tvName;
     TextView tvNum;
     ListFrag listFrag;
@@ -28,7 +27,6 @@ public class MainActivity extends AppCompatActivity implements myAdapter.ItemCli
         etName=findViewById(R.id.etName);
         number=findViewById(R.id.etNumber);
         btn=findViewById(R.id.btnAdd);
-        img=findViewById(R.id.imageView);
         tvName=findViewById(R.id.tvName);
         tvNum=findViewById(R.id.tvNum);
         manager= this.getSupportFragmentManager();
@@ -39,8 +37,8 @@ public class MainActivity extends AppCompatActivity implements myAdapter.ItemCli
                 if(etName.getText().toString().isEmpty()||number.getText().toString().isEmpty())
                     Toast.makeText(MainActivity.this,"Please enter all fields",Toast.LENGTH_SHORT).show();
                 else {
-                    ApplicationClass.peep.add(new Person(etName.getText().toString(), number.getText().toString()));
-                    Toast.makeText(MainActivity.this, etName.getText().toString() + "added successfully", Toast.LENGTH_SHORT).show();
+                    ApplicationClass.peep.add(new Person(etName.getText().toString().trim(), number.getText().toString().trim()));
+                    Toast.makeText(MainActivity.this, etName.getText().toString().trim()+" added successfully", Toast.LENGTH_SHORT).show();
                     etName.setText(null);
                     number.setText(null);
                     // now we need to tell recycler to update hence Notify the changes

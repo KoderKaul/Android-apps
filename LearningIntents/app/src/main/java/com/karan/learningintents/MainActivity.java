@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         name = findViewById(R.id.etName);
         btn1 = findViewById(R.id.btnAct2);
         btn2 = findViewById(R.id.btnAct3);
+        txtR.setVisibility(View.GONE);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -34,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 else {
                     String s = name.getText().toString().trim();
                     Intent intent = new Intent(MainActivity.this,
-                            com.karan.learningintents.Activity2.class);
+                            Activity2.class);
                     intent.putExtra("NAME", s);
                     startActivity(intent);
                 }
@@ -60,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
             if(resultCode==RESULT_CANCELED)
                 txtR.setText("No data Received");
         }
+        txtR.setVisibility(View.VISIBLE);
     }
 
 }

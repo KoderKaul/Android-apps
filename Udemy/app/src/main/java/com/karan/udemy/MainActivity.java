@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         btnSubmitJ=findViewById(R.id.btnSubmitX);
         txtResultJ=findViewById(R.id.txtResultX);
 
-        txtResultJ.setVisibility(500);
+        txtResultJ.setVisibility(View.GONE);
 
         btnSubmitJ.setOnClickListener(new View.OnClickListener() {
             @Override

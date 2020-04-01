@@ -18,5 +18,6 @@ public class Activity2 extends AppCompatActivity {
                             // If no input given sends a NULL value
 
         txt.setText(name+", Welcome to Activity 2");
+
     }
 }

@@ -12,27 +12,25 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
 public class myAdapter extends RecyclerView.Adapter<myAdapter.ViewHolder> {
-    ArrayList<Person> people;
     ItemClicked activity;
     public interface ItemClicked{
         void onItemCLicked(int index);
     }
 
     public myAdapter(Context context, ArrayList<Person>list) {
-        people=list;
         activity=(ItemClicked)context;// connect krni h activity
     }
     //Instead of Recycler View holder we create our own viewholder
     public class ViewHolder extends RecyclerView.ViewHolder{
         TextView tvName;
 
-        public ViewHolder(@NonNull final View viewed) {
-            super(viewed);//itemView will be linked to list_view.xml
+        public ViewHolder(@NonNull View itemView) {
+            super(itemView);//itemView will be linked to list_view.xml
             tvName=itemView.findViewById(R.id.textView);
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    activity.onItemCLicked(people.indexOf((Person)v.getTag()));//jo bi click hua wo ek View h uska niche Tag diya tha ab
+                    activity.onItemCLicked(ApplicationClass.peep.indexOf((Person)v.getTag()));//jo bi click hua wo ek View h uska niche Tag diya tha ab
                         //us tag ke through apn Index NIKALENGE people Array ke Items ka jo click hua tha taki uski deatils mile
                 }
             });
@@ -51,13 +49,14 @@ public class myAdapter extends RecyclerView.Adapter<myAdapter.ViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull myAdapter.ViewHolder holder, int position) {
         //its job is to connect Viewholder, Arraylist and ur List_view.xml
-        holder.itemView.setTag(people.get(position));// OnclickListener apne ko position bejega clicked ki
+        holder.itemView.setTag(ApplicationClass.peep.get(position));// OnclickListener apne ko position bejega clicked ki
                 // idhar apn items ko tag dere jo bi list me jaega
-        holder.tvName.setText(people.get(position).getName());
+        holder.tvName.setText(ApplicationClass.peep.get(position).getName());
     }
 
     @Override
     public int getItemCount() {
-        return people.size();
+
+        return ApplicationClass.peep.size();
     }
 }

@@ -27,7 +27,7 @@ public class Activity3 extends AppCompatActivity {
                     String sur= Surname.getText().toString().trim();
                     Intent mainInt= new Intent();// Dont need to create any specific intent  // just for the sake of features
                     mainInt.putExtra("SURNAME",sur);
-                    setResult(RESULT_OK,mainInt);
+                    setResult(RESULT_OK,mainInt);s
                     Activity3.this.finish();
                 }
             }

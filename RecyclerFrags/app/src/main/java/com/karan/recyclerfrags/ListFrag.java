@@ -37,7 +37,7 @@ public class ListFrag extends Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        recyclerView=view.findViewById(R.id.ListView);
+        recyclerView= view.findViewById(R.id.recyclerview);
         recyclerView.setHasFixedSize(true);
         layoutManager=new LinearLayoutManager(this.getActivity());
         recyclerView.setLayoutManager(layoutManager);
@@ -47,6 +47,7 @@ public class ListFrag extends Fragment {
     }
 
     public void notifyChange(){
+
         myAdapter.notifyDataSetChanged();
     }
 }
