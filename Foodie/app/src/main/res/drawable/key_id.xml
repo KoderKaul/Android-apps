@@ -10,8 +10,7 @@
         </shape>
     </item>
 
-    <item android:height="35sp"
-        android:width="35dp"
+    <item
         android:gravity="center"
         android:drawable="@drawable/key">
     </item>

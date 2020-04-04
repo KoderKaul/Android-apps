@@ -10,9 +10,7 @@
         </shape>
     </item>
 
-    <item android:height="35sp"
-        android:width="35dp"
-        android:gravity="center"
+    <item android:gravity="center"
         android:drawable="@drawable/email">
 
     </item>

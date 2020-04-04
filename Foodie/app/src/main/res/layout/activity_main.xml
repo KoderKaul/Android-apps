@@ -143,7 +143,6 @@
         android:layout_height="50dp"
         android:layout_marginRight="5dp"
         android:background="@drawable/facebook"
-        android:drawableLeft="@drawable/fb_id"
         android:paddingLeft="10dp"
         android:text="Facebook"
         android:textColor="#ffffff"
@@ -164,8 +163,7 @@
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginLeft="5dp"
-        android:background="@drawable/fb_layout"
-        android:drawableLeft="@drawable/google_id"
+        android:background="@drawable/googlep_layout"
         android:paddingLeft="10dp"
         android:text="Google"
         android:textColor="#ffffff"
@@ -201,7 +199,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.16" />
+        app:layout_constraintGuide_percent="0.10" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

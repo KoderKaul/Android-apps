@@ -5,6 +5,11 @@
             android:shape="rectangle">
             <solid android:color="#3b5998"/>
             <corners android:radius="35dp"/>
+            <padding android:left="15dp"/>
         </shape>
     </item>
+    <item android:height="24dp"
+        android:width="24dp"
+        android:gravity="center_vertical"
+        android:drawable="@drawable/fbk"/>
 </layer-list>
