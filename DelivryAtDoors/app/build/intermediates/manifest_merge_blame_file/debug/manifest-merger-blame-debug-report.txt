@@ -1,0 +1,329 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.delivryatdoors"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the 'MyLocation' functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:9:5-79
+15-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:10:5-81
+16-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:10:22-78
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:11:5-67
+17-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:11:22-64
+18    <uses-permission android:name="android.permission.SEND_SMS" />
+18-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:12:5-67
+18-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:12:22-64
+19    <uses-permission android:name="android.permission.READ_SMS" />
+19-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:13:5-67
+19-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:13:22-64
+20    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+20-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:14:5-75
+20-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:14:22-72
+21
+22    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+23    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\468b182d948a813c175d023b96c3e587\jetified-firebase-database-19.2.1\AndroidManifest.xml:25:5-79
+24-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\468b182d948a813c175d023b96c3e587\jetified-firebase-database-19.2.1\AndroidManifest.xml:25:22-76
+25
+26    <uses-feature
+26-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\c68fd95edbf036eb6e25b894ffe98cc4\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+27        android:glEsVersion="0x00020000"
+27-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\c68fd95edbf036eb6e25b894ffe98cc4\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+28        android:required="true" />
+28-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\c68fd95edbf036eb6e25b894ffe98cc4\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+29
+30    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+30-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0d1e32088ddda6f43a86c7dc0cb14ec3\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+30-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\0d1e32088ddda6f43a86c7dc0cb14ec3\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+31
+32    <application
+32-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:16:5-82:19
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\d8e6145ebd5f6e1099b739484795a4bd\core-1.1.0\AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:icon="@mipmap/ic_launcher"
+35-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:17:9-43
+36        android:label="@string/app_name"
+36-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:18:9-41
+37        android:roundIcon="@drawable/truck"
+37-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:19:9-44
+38        android:supportsRtl="true"
+38-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:20:9-35
+39        android:testOnly="true"
+40        android:theme="@style/AppTheme" >
+40-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:21:9-40
+41        <activity android:name="com.example.delivryatdoors.PaymentActivity" />
+41-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:22:9-62
+41-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:22:19-50
+42        <activity android:name="com.example.delivryatdoors.RiderOrderDetail" />
+42-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:23:9-54
+42-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:23:19-51
+43        <!--
+44             The API key for Google Maps-based APIs is defined as a string resource.
+45             (See the file "res/values/google_maps_api.xml").
+46             Note that the API key is linked to the encryption key used to sign the APK.
+47             You need a different API key for each encryption key, including the release key that is used to
+48             sign the APK for publishing.
+49             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+50        -->
+51        <meta-data
+51-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:32:9-34:55
+52            android:name="com.google.android.geo.API_KEY"
+52-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:33:13-58
+53            android:value="@string/google_maps_key" />
+53-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:34:13-52
+54
+55        <activity android:name="com.example.delivryatdoors.StartupSwift" >
+55-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:36:9-42:20
+55-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:36:19-47
+56            <intent-filter>
+56-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:37:13-41:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:38:17-69
+57-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:38:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:40:17-77
+59-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:40:27-74
+60            </intent-filter>
+61        </activity>
+62        <activity android:name="com.example.delivryatdoors.sign_up_activity" />
+62-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:44:9-54
+62-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:44:19-51
+63        <activity android:name="com.example.delivryatdoors.Login" />
+63-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:46:9-47:37
+63-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:47:13-34
+64        <activity
+64-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:49:9-51:32
+65            android:name="com.example.delivryatdoors.MainActivity"
+65-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:50:13-41
+66            android:label="" />
+66-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:51:13-29
+67        <activity
+67-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:52:9-54:32
+68            android:name="com.example.delivryatdoors.Rider_Activity"
+68-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:53:13-43
+69            android:label="" />
+69-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:54:13-29
+70
+71        <meta-data
+71-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:56:9-58:55
+72            android:name="com.facebook.sdk.ApplicationId"
+72-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:57:13-58
+73            android:value="@string/facebook_app_id" />
+73-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:58:13-52
+74        <meta-data
+74-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:59:9-61:57
+75            android:name="preloaded_fonts"
+75-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:60:13-43
+76            android:resource="@array/preloaded_fonts" />
+76-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:61:13-54
+77
+78        <activity
+78-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:63:9-66:48
+79            android:name="com.facebook.FacebookActivity"
+79-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:64:13-57
+80            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+80-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:65:13-96
+81            android:label="@string/app_name"
+81-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:66:13-45
+82            android:theme="@style/com_facebook_activity_theme" />
+82-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\ca5450b6559c0e17d6d6f4e2adcdd60b\jetified-facebook-common-5.15.3\AndroidManifest.xml:33:13-63
+83        <activity
+83-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:67:9-78:20
+84            android:name="com.facebook.CustomTabActivity"
+84-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:68:13-58
+85            android:exported="true" >
+85-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:69:13-36
+86            <intent-filter>
+86-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:70:13-77:29
+87                <action android:name="android.intent.action.VIEW" />
+87-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:71:17-69
+87-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:71:25-66
+88
+89                <category android:name="android.intent.category.DEFAULT" />
+89-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:73:17-76
+89-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:73:27-73
+90                <category android:name="android.intent.category.BROWSABLE" />
+90-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:74:17-78
+90-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:74:27-75
+91
+92                <data android:scheme="@string/fb_login_protocol_scheme" />
+92-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:76:17-75
+92-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:76:23-72
+93            </intent-filter>
+94            <intent-filter>
+94-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\ca5450b6559c0e17d6d6f4e2adcdd60b\jetified-facebook-common-5.15.3\AndroidManifest.xml:39:13-48:29
+95                <action android:name="android.intent.action.VIEW" />
+95-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:71:17-69
+95-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:71:25-66
+96
+97                <category android:name="android.intent.category.DEFAULT" />
+97-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:73:17-76
+97-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:73:27-73
+98                <category android:name="android.intent.category.BROWSABLE" />
+98-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:74:17-78
+98-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:74:27-75
+99
+100                <data
+100-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:76:17-75
+101                    android:host="cct.com.example.delivryatdoors"
+102                    android:scheme="fbconnect" />
+102-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:76:23-72
+103            </intent-filter>
+104        </activity>
+105        <activity
+105-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:79:9-81:59
+106            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+106-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:80:13-76
+107            android:theme="@style/Base.Theme.AppCompat" />
+107-->C:\Users\Lenovo\Desktop\DelivryAtDoors\app\src\main\AndroidManifest.xml:81:13-56
+108        <activity android:name="com.facebook.CustomTabMainActivity" />
+108-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\ca5450b6559c0e17d6d6f4e2adcdd60b\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:9-71
+108-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\ca5450b6559c0e17d6d6f4e2adcdd60b\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:19-68
+109        <activity
+109-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:24:9-31:50
+110            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+110-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:25:13-85
+111            android:excludeFromRecents="true"
+111-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:26:13-46
+112            android:exported="true"
+112-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:27:13-36
+113            android:launchMode="singleTask"
+113-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:28:13-44
+114            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+114-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:29:13-102
+115            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+115-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:30:13-72
+116
+117        <service
+117-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:33:9-39:19
+118            android:name="com.google.firebase.components.ComponentDiscoveryService"
+118-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:34:13-84
+119            android:directBootAware="true"
+119-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\89e8c50f4adcfa71f0d90282494b2c06\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+120            android:exported="false" >
+120-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:35:13-37
+121            <meta-data
+121-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:36:13-38:85
+122                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+122-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:37:17-109
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:38:17-82
+124            <meta-data
+124-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\468b182d948a813c175d023b96c3e587\jetified-firebase-database-19.2.1\AndroidManifest.xml:32:13-34:85
+125                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+125-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\468b182d948a813c175d023b96c3e587\jetified-firebase-database-19.2.1\AndroidManifest.xml:33:17-109
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\468b182d948a813c175d023b96c3e587\jetified-firebase-database-19.2.1\AndroidManifest.xml:34:17-82
+127            <meta-data
+127-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\c35340ecdc147c31bde9b8bd18c18794\jetified-firebase-storage-19.1.1\AndroidManifest.xml:33:13-35:85
+128                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+128-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\c35340ecdc147c31bde9b8bd18c18794\jetified-firebase-storage-19.1.1\AndroidManifest.xml:34:17-107
+129                android:value="com.google.firebase.components.ComponentRegistrar" />
+129-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\c35340ecdc147c31bde9b8bd18c18794\jetified-firebase-storage-19.1.1\AndroidManifest.xml:35:17-82
+130        </service> <!-- Needs to be explicitly declared on P+ -->
+131        <uses-library
+131-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\c68fd95edbf036eb6e25b894ffe98cc4\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+132            android:name="org.apache.http.legacy"
+132-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\c68fd95edbf036eb6e25b894ffe98cc4\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+133            android:required="false" />
+133-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\c68fd95edbf036eb6e25b894ffe98cc4\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+134
+135        <activity
+135-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4bca800f8161cd29b59b3bb152859f0c\jetified-play-services-auth-18.0.0\AndroidManifest.xml:23:9-27:75
+136            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+136-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4bca800f8161cd29b59b3bb152859f0c\jetified-play-services-auth-18.0.0\AndroidManifest.xml:24:13-93
+137            android:excludeFromRecents="true"
+137-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4bca800f8161cd29b59b3bb152859f0c\jetified-play-services-auth-18.0.0\AndroidManifest.xml:25:13-46
+138            android:exported="false"
+138-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4bca800f8161cd29b59b3bb152859f0c\jetified-play-services-auth-18.0.0\AndroidManifest.xml:26:13-37
+139            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+139-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4bca800f8161cd29b59b3bb152859f0c\jetified-play-services-auth-18.0.0\AndroidManifest.xml:27:13-72
+140        <!--
+141            Service handling Google Sign-In user revocation. For apps that do not integrate with
+142            Google Sign-In, this service will never be started.
+143        -->
+144        <service
+144-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4bca800f8161cd29b59b3bb152859f0c\jetified-play-services-auth-18.0.0\AndroidManifest.xml:33:9-36:110
+145            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+145-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4bca800f8161cd29b59b3bb152859f0c\jetified-play-services-auth-18.0.0\AndroidManifest.xml:34:13-89
+146            android:exported="true"
+146-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4bca800f8161cd29b59b3bb152859f0c\jetified-play-services-auth-18.0.0\AndroidManifest.xml:35:13-36
+147            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+147-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\4bca800f8161cd29b59b3bb152859f0c\jetified-play-services-auth-18.0.0\AndroidManifest.xml:36:13-107
+148
+149        <activity
+149-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\8d306c96d5671c46c09e41df093ec68f\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+150            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+150-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\8d306c96d5671c46c09e41df093ec68f\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+151            android:exported="false"
+151-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\8d306c96d5671c46c09e41df093ec68f\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+152            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+152-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\8d306c96d5671c46c09e41df093ec68f\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+153
+154        <provider
+154-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\89e8c50f4adcfa71f0d90282494b2c06\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+155            android:name="com.google.firebase.provider.FirebaseInitProvider"
+155-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\89e8c50f4adcfa71f0d90282494b2c06\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+156            android:authorities="com.example.delivryatdoors.firebaseinitprovider"
+156-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\89e8c50f4adcfa71f0d90282494b2c06\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+157            android:exported="false"
+157-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\89e8c50f4adcfa71f0d90282494b2c06\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+158            android:initOrder="100" />
+158-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\89e8c50f4adcfa71f0d90282494b2c06\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+159
+160        <meta-data
+160-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\7d304f38cf477fae22002116bbb09aff\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+161            android:name="com.google.android.gms.version"
+161-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\7d304f38cf477fae22002116bbb09aff\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+162            android:value="@integer/google_play_services_version" />
+162-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\7d304f38cf477fae22002116bbb09aff\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+163        <!--
+164         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+165         with the application context. This config is merged in with the host app's manifest,
+166         but there can only be one provider with the same authority activated at any given
+167         point; so if the end user has two or more different apps that use Facebook SDK, only the
+168         first one will be able to use the provider. To work around this problem, we use the
+169         following placeholder in the authority to identify each host application as if it was
+170         a completely different provider.
+171        -->
+172        <provider
+172-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\69bafb1bfa2cffe6d10d83e84fd5beb9\jetified-facebook-core-5.15.3\AndroidManifest.xml:39:9-42:40
+173            android:name="com.facebook.internal.FacebookInitProvider"
+173-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\69bafb1bfa2cffe6d10d83e84fd5beb9\jetified-facebook-core-5.15.3\AndroidManifest.xml:40:13-70
+174            android:authorities="com.example.delivryatdoors.FacebookInitProvider"
+174-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\69bafb1bfa2cffe6d10d83e84fd5beb9\jetified-facebook-core-5.15.3\AndroidManifest.xml:41:13-72
+175            android:exported="false" />
+175-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\69bafb1bfa2cffe6d10d83e84fd5beb9\jetified-facebook-core-5.15.3\AndroidManifest.xml:42:13-37
+176
+177        <receiver
+177-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\69bafb1bfa2cffe6d10d83e84fd5beb9\jetified-facebook-core-5.15.3\AndroidManifest.xml:44:9-50:20
+178            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+178-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\69bafb1bfa2cffe6d10d83e84fd5beb9\jetified-facebook-core-5.15.3\AndroidManifest.xml:45:13-86
+179            android:exported="false" >
+179-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\69bafb1bfa2cffe6d10d83e84fd5beb9\jetified-facebook-core-5.15.3\AndroidManifest.xml:46:13-37
+180            <intent-filter>
+180-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\69bafb1bfa2cffe6d10d83e84fd5beb9\jetified-facebook-core-5.15.3\AndroidManifest.xml:47:13-49:29
+181                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+181-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\69bafb1bfa2cffe6d10d83e84fd5beb9\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:17-95
+181-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\69bafb1bfa2cffe6d10d83e84fd5beb9\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:25-92
+182            </intent-filter>
+183        </receiver>
+184    </application>
+185
+186</manifest>

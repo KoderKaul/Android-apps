@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DelivryAtDoors</string>
+    <string name="ok">Successful</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="facebook_app_id">257800411917665</string>
+    <string name="fb_login_protocol_scheme">fb257800411917665</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

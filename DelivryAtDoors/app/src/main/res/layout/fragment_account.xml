@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:id="@+id/fragment_account"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountFragment"
+    android:background="@drawable/gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:id="@+id/update_info"
+                android:layout_margin="4dp"
+                android:padding="6dp"
+                android:text="Update"
+                android:gravity="right"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profilephoto"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/name"
+                android:layout_gravity="center"
+                android:foregroundGravity="center" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/editphoto"
+                android:layout_width="17dp"
+                android:layout_height="24dp"
+                android:layout_gravity="bottom"
+                android:src="@drawable/edit" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/nameyo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="3dp"
+            android:textColor="#FFFFFF"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/emailyo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="3dp"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Name"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+             />
+
+        <TextView
+            android:id="@+id/actfrag_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/edittext_bac"
+            android:drawableLeft="@drawable/account"
+            android:drawablePadding="10dp"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Email Address"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/actfrag_email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/edittext_bac"
+            android:drawableLeft="@drawable/email"
+            android:drawablePadding="10dp"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Phone Number"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/actfrag_phone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/edittext_bac"
+            android:drawableLeft="@drawable/phone_24dp"
+            android:drawableRight="@drawable/edit"
+            android:drawablePadding="10dp"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Birthday"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/actfrag_bday"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/edittext_bac"
+            android:drawableLeft="@drawable/bday"
+            android:drawableRight="@drawable/edit"
+            android:drawablePadding="10dp"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="18sp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Address"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/actfrag_address"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:background="@drawable/edittext_bac"
+            android:drawableStart="@drawable/home"
+            android:drawableEnd="@drawable/edit"
+            android:drawablePadding="10dp"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <androidx.cardview.widget.CardView
+        android:id="@+id/btnLogout"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_ripple"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:padding="3dp"
+        app:cardCornerRadius="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:padding="6dp"
+            android:text="Logout"
+            android:textColorHint="#C6C3C3"
+            android:textColorLink="#F1E9E9"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

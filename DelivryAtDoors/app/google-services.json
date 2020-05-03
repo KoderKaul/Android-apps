@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "883737309161",
+    "firebase_url": "https://delivryatdoors.firebaseio.com",
+    "project_id": "delivryatdoors",
+    "storage_bucket": "delivryatdoors.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883737309161:android:3af2fcf4a98aae4f086578",
+        "android_client_info": {
+          "package_name": "com.example.delivryatdoors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "883737309161-fkvo1thhkkmsfvgehgdrm26s0r8vphbl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.delivryatdoors",
+            "certificate_hash": "665d1a5aa5375fe03a2c806533771811f5e3e1d3"
+          }
+        },
+        {
+          "client_id": "883737309161-vmoo00qiqlkfna79vs6h4h2us9vtk5p0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwcSU2dMeugNEbqGLy93JunNrKvxWqPvY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "883737309161-vmoo00qiqlkfna79vs6h4h2us9vtk5p0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

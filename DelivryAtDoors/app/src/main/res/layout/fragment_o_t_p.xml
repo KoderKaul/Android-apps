@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/browser_actions_bg_grey"
+    android:layout_width="match_parent"
+    android:id="@+id/otpFrag"
+    android:layout_height="match_parent"
+    tools:context=".OTPFrag">
+
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/molengo"
+        android:text="ENTER OTP"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline8" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <EditText
+        android:id="@+id/otp_et1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="50dp"
+        android:ems="1"
+        android:maxLength="1"
+        android:gravity="center_horizontal"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/otp_et2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <EditText
+        android:id="@+id/otp_et2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="1"
+        android:maxLength="1"
+        android:gravity="center_horizontal"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/otp_et3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/otp_et1"
+        app:layout_constraintTop_toTopOf="@+id/otp_et1" />
+
+    <EditText
+        android:id="@+id/otp_et3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="1"
+        android:maxLength="1"
+        android:gravity="center_horizontal"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/otp_et4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/otp_et2"
+        app:layout_constraintTop_toTopOf="@+id/otp_et2" />
+
+    <EditText
+        android:id="@+id/otp_et4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="1"
+        android:maxLength="1"
+        android:gravity="center_horizontal"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/otp_et5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/otp_et3"
+        app:layout_constraintTop_toTopOf="@+id/otp_et3" />
+
+    <EditText
+        android:id="@+id/otp_et5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="1"
+        android:maxLength="1"
+        android:gravity="center_horizontal"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@id/otp_et6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/otp_et4"
+        app:layout_constraintTop_toTopOf="@+id/otp_et4" />
+
+    <EditText
+        android:id="@+id/otp_et6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:ems="1"
+        android:maxLength="1"
+        android:gravity="center_horizontal"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/otp_et5"
+        app:layout_constraintTop_toTopOf="@+id/otp_et5" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#FF0000"
+        android:fontFamily="@font/molengo"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="Validate"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/otp_et3"
+        app:strokeColor="#100E0E"
+        app:strokeWidth="3dp" />
+
+    <TextView
+        android:id="@+id/tvCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Call Customer for OTP"
+        android:textColor="#28B51F"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
